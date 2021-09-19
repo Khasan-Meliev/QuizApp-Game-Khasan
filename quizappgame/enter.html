@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>quiz game</title>
+    <link rel="stylesheet" href="enter.css" />
+  </head>
+
+  <body>
+    <div id="games">
+      <div id="easygame1">
+        <button id="easy" onclick="easygame()">Easy</button>
+        <div id="questions">
+          <div class="question1">
+            Q1. How many DATA TYPES are there? <br />
+            <input type="radio" name="question1" /> 4 <br />
+            <input type="radio" name="question1" /> 3<br />
+            <input type="radio" name="question1" id="correct" />5<br />
+            <input type="radio" name="question1" />2 <br />
+          </div>
+
+          <div class="question2">
+            Q2. What is output of this code var x = 100; var y = 5; var z = x + y;
+            <br />
+            <input
+              type="radio"
+              name="question2"
+              id="correct2"
+              class="inputradio"
+            />
+            105 <br />
+            <input type="radio" name="question2" /> 200 <br />
+            <input type="radio" name="question2" /> 150<br />
+            <input type="radio" name="question2" /> 501 <br />
+          </div>
+
+          <div class="question3">
+            Q3. What is HTML
+            <br />
+            <input
+              type="radio"
+              name="question4"
+              id="correct3"
+              class="inputradio"
+            />
+            HyperText Markup Language
+            <br />
+            <input type="radio" name="question3" /> HyperText Markap Language
+            <br />
+            <input type="radio" name="question3" /> HyperText Markop Language
+            <br />
+            <input type="radio" name="question3" /> HyperTixt Markup Language
+            <br />
+            <input
+              type="submit"
+              name="submit"
+              value="SubmitQuiz"
+              onclick="result()"
+              id="submit"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="mediumgame1">
+        <button id="medium" onclick="mediumgame()">Medium</button>
+        <div id="questions2">
+          <div class="questions1">
+            Q1.Const is ..... scope  <br />
+            <input type="radio" name="question4" /> global
+            <br />
+            <input type="radio" name="question4" />
+            normal<br />
+            <input type="radio" name="question4" id="correct4" />local<br />
+            <input type="radio" name="question4" />javascript
+            <br />
+          </div>
+          <div class="questions2">
+            Q2. What is output of this code var x = 5; var y = 2; var z = x % y;
+            <br />
+            <input type="radio" name="question5" id="correct5" />
+            1 <br />
+            <input type="radio" name="question5" /> 2 <br />
+            <input type="radio" name="question5" /> 4<br />
+            <input type="radio" name="question5" /> 3 <br />
+          </div>
+
+          <div class="questions3">
+            Q3. What is Css <br />
+            <input type="radio" name="question6" id="correct6" />
+            Cascading Style Sheets
+            <br />
+            <input type="radio" name="question6" /> Cascading Style Sheet
+            <br />
+            <input type="radio" name="question6" /> Cascading Style
+            <br />
+            <input type="radio" name="question6" /> Cascadinsg Style Sheets
+            <br />
+            <input
+              type="submit"
+              name="submit2"
+              value="SubmitQuiz"
+              onclick="result2()"
+              id="submit"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="hardgame1">
+        <button id="hard" onclick="hardgame()">Hard</button>
+        <div id="questions3">
+          <div class="questions4">
+            Q1. What is 0? <br />
+            <input type="radio" name="question1" />true <br />
+            <input type="radio" name="question1" />boolean <br />
+            <input type="radio" name="question1" id="correct7" />false<br />
+            <input type="radio" name="question1" />correct <br />
+          </div>
+          <div class="questions5">
+            Q2. What is 1<br />
+            <input type="radio" name="question2" id="correct8" /> true <br />
+            <input type="radio" name="question2" /> false <br />
+            <input type="radio" name="question2" /> wrong<br />
+            <input type="radio" name="question2" /> no answer <br />
+          </div>
+
+          <div class="questions6">
+            Q3. What is unshift() <br />
+            <input type="radio" name="question4" />  adds new item to the ending of an array <br />
+            <input type="radio" name="question4" />  remove one item to the beginning of an array<br />
+            <input type="radio" name="question4" id="correct9"/>  adds new item to the beginning of an array <br />
+            <input type="radio" name="question4" /> remove one item to the ending of an array<br />
+            <input
+              type="submit"
+              name="submit3"
+              value="SubmitQuiz"
+              onclick="result3()"
+              id="submit"
+            />
+          </div>
+        </div> 
+      </div>
+    </div>
+  </body>
+  <script src="enter.js"></script>
+</html>

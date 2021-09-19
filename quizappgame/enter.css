@@ -1,0 +1,62 @@
+    body{
+        background-color: blue;
+    }
+    #games{
+        width: 400px;
+        height: 300px;
+        background-color: rgb(51, 47, 112);
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+    #easy{
+        width: 200px;
+        height: 30px;
+        background-color:rgb(248, 0, 194);
+        color: black;
+        border: none;
+        position: relative; 
+        left: 100px;
+        top: 40px;
+        cursor: pointer;
+    }
+    #medium{
+        width: 200px;
+        height: 30px;
+        background-color:rgb(30, 255, 0);
+        color: black;
+        border: none;
+        position: relative; 
+        left: 100px;
+        top: 90px;
+        cursor: pointer;
+    }
+    #hard{
+        width: 200px;
+        height: 30px;
+        background-color:rgb(255, 0, 0);
+        color: black;
+        border: none;
+        position: relative; 
+        left: 100px;
+        top: 140px;
+        cursor: pointer;
+    }
+    #submit{
+        width: 150px;
+        height: 30px;
+        border: none;
+        background-color: red;
+        position: relative;
+        left: 200px;
+        bottom: -20px;
+        cursor: pointer;
+    }
+    #questions{
+        display: none;
+    }
+    #questions2{
+        display: none;
+    }
+    #questions3{
+        display: none;
+    }
